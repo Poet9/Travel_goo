@@ -1,0 +1,350 @@
+.mainContent {
+    width: 100%;
+}
+.mainContent > .mainView {
+    background: url("../figma/main1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    z-index: -10;
+}
+.mainContent > .mainView > div {
+    height: 110%;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, #000000ad, #00000067, #27272767, #27272767, #27272767, #ffffffe5);
+}
+.mainContent > .mainView > div > h1 {
+    max-width: 800px;
+    font-size: 70px;
+    font-weight: 700;
+}
+.mainContent > .mainView > div > p {
+    max-width: 500px;
+    margin: 50px 0 20px 0;
+    font-weight: lighter;
+}
+/******* cards 1 ************/
+.mainContent > .ourServiceContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent > .ourServiceContainer  > div {
+    padding-bottom: 25px ;
+    align-content: center;
+}
+.mainContent > .ourServiceContainer  > div > div {
+    box-shadow: 1px 3px 2px 4px #3336;
+    border-radius: 10px;
+    padding: 20px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+.mainContent > .ourServiceContainer  > div > div > img {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.mainContent > .ourServiceContainer  > div > div > h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.mainContent > .ourServiceContainer  > div > div > p {
+    font-size: 14px;
+    font-weight: 350;
+}
+
+/***** stats ******/
+
+.mainContent > .statsContainer {
+    background: url("../figma/worldmapb.png") cover ;
+    background-color: #0058541e;
+    padding: 60px 0;
+}
+.mainContent > .statsContainer > div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.mainContent > .statsContainer > div > div {
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+.mainContent > .statsContainer > div > div > img {
+    width: 50px;
+    margin-top: 20px;
+}
+.mainContent > .statsContainer > div > div > p {
+    width: 65px;
+    text-align: left;
+    color: #000000ab;
+}
+/****** popular distinations *******/
+.mainContent > .popularDistinationsContainer {
+    display: flex;
+    padding: 25px 0;
+}
+.mainContent > .popularDistinationsContainer > .map {
+    width: 45%;
+    background: url("../figma/worldmap.png") right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.mainContent > .popularDistinationsContainer > .map > div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-image: radial-gradient( #4992FF 5px, #fff 5px);
+}
+.mainContent > .popularDistinationsContainer > .map > .first {
+    margin-right: 325px;
+    margin-top: 350px;
+}
+.mainContent > .popularDistinationsContainer > .map > .second {
+    margin-right: 200px;
+    margin-top: 76px;
+}
+.mainContent > .popularDistinationsContainer > .map > .third {
+    margin-right: 20px;
+    margin-top: 178px;
+}
+/******* popular distinations cards *****/
+.mainContent > .popularDistinationsContainer > .popularDistinations {
+    width: 55%;
+}
+.mainContent > .popularDistinationsContainer > .popularDistinations > div {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainContent > .popularDistinationsContainer > .popularDistinations > div > img:last-child{
+    margin-right: 25px;
+    cursor: pointer;
+    width: 25px;
+}
+.mainContent > .popularDistinationsContainer > .popularDistinations > div > h4 {
+    width: 100px;
+    font-size: 18px;
+}
+
+/******** best packages ******/ 
+.mainContent > .bestPackagesContainer {
+    background: url("../figma/worldmapb.png") center no-repeat #0058541e;
+    padding: 70px ;
+}
+
+.mainContent > .bestPackagesContainer > .packagePick {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+.mainContent > .bestPackagesContainer  button {
+    width: 180px;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.selectedbestPackBtn { background-color: #00A651; }
+.selectedbestPackBtn:hover { background-color: #00A651; }
+.selectedbestPackBtn:focus { background-color: #00A651; }
+
+/******* your Next Trip   ************/
+.mainContent > .yourNextTripContainer {
+    margin: 50px 0;
+}
+.mainContent > .yourNextTripContainer > div  {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainContent > .yourNextTripContainer .horizentalCard {
+    display:  flex;
+    margin: 50px 30px;
+    text-align: left;
+    max-width: 500px;
+}
+.mainContent > .yourNextTripContainer .horizentalCard > img {
+    padding: 25px;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+.mainContent > .yourNextTripContainer .horizentalCard > div > p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    color: #222;
+}
+.mainContent > .yourNextTripContainer .horizentalCard > div > h4 {
+    color: #444;
+    font-size: 20px;
+}
+
+.mainContent > .yourNextTripContainer .verticalCard {
+    text-align: left;
+    width: 370px;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 15px 5px 12px 5px #38a2df5d;
+}
+.mainContent > .yourNextTripContainer .verticalCard  p {
+    color: #494949da;
+}
+.mainContent > .yourNextTripContainer .verticalCard > img {
+    width: 340px;
+    margin: 0 auto;
+}
+.mainContent > .yourNextTripContainer .verticalCard  > .divi1> img{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #bebebe56;
+    margin: 0 5px;
+}
+.mainContent > .yourNextTripContainer .sticker {
+    display: flex;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 15px 5px 12px 5px #38a2df5d;
+    transform: translateX(-50%);
+    font-size: 13px;
+    text-align: left;
+    margin-top: 25%;
+}
+.mainContent > .yourNextTripContainer .sticker > img {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.mainContent > .yourNextTripContainer .sticker span{
+    color:#8A79DF;
+    font-weight: 400;
+}
+.mainContent > .yourNextTripContainer .sticker > div {
+    width: stretch;
+}
+.mainContent > .yourNextTripContainer .sticker > div > h5{
+    font-size: 16px;
+}
+.mainContent > .yourNextTripContainer .sticker > div >p {
+    margin: 4px 0;
+}
+.mainContent > .yourNextTripContainer .sticker > div > div {
+    height:7px;
+    border-radius: 25px;
+    background-color: #a1a1a167;
+    margin-bottom: 5px;
+}
+.mainContent > .yourNextTripContainer .sticker > div > div > div{
+    height:7px;
+    border-radius: 25px;
+    background-color: #8A79DF;
+    width: 40%;
+}
+
+/****** People say *****/
+.mainContent > .peopleOpinions {
+    display: flex;
+    overflow: hidden;
+    scrollbar-color: #0000;
+    height: 850px;
+}
+
+/********* subscribe container ********/ 
+.mainContent > .subContainer {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #0058541e;
+}
+.mainContent > .subContainer > div {
+    width: 650px;
+    height: 250px;
+    margin: auto;
+    background-color: #4b9e8c56;
+    border-top-left-radius: 100px;
+}
+.mainContent > .subContainer > div > div{
+    margin-left: 630px;
+    transform: translateY(-15px);
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to top, #239619, #2bec44, rgb(99, 212, 114));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent > .subContainer > div > p {
+    color: #3d3d3d;
+    width: 80%;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.mainContent > .subContainer > div > form {
+    width: 450px;
+    margin: 50px auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.mainContent > .subContainer > div > form > img {
+    padding: 15px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom: 1px solid #3338;
+    border-top: 1px solid #3338;
+    border-left: 1px solid #3338;
+}
+.mainContent > .subContainer > div > form > input {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #3338;
+    border-top: 1px solid #3338;
+    background-color: #f3f3f3;
+    padding: 0 5px;
+}
+.mainContent > .subContainer > div > form > input:focus{
+    outline: none;
+    background-color: #fff;
+}
+.mainContent > .subContainer > div > form > button {
+    background-color: #00A651;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,6 @@
+light green : #00A651
+dark green : #005F15
+gray : #666666
+
+
+#ECF1F0

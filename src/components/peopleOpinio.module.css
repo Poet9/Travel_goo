@@ -1,0 +1,40 @@
+.card {
+    width: 90vw;
+    align-content: center;
+    margin: 10px 100px;
+}
+.card > .bgPic {
+    border-radius: 25px;
+    height: 700px;
+    width: 1050px;
+
+}
+
+.card > .profilPic {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 148px;
+    height: 148px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transform: translateY(-200px);
+    z-index: 10;
+    position:relative;
+}
+.card > .profilPic > img {
+    height: 250px;
+}
+.card > div:last-child {
+    background-color: #fff;
+    margin: 0 auto;
+    width : 60%;
+    padding: 50px 60px 5px 60px;
+    transform: translateY(-270px);
+    z-index: 1;
+    position:relative;
+    box-shadow: 0px 2px 3px 1px #6868688c;
+    border-radius: 5px;
+}
+.card > div > p{
+    margin-top: 30px;
+}

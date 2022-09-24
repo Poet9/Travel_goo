@@ -1,38 +1,123 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+.App .navbar-style {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.App .navbar-style  .nav-container {
+    color: #fff;
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+.brand-style {
+    width: 76px;
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    white-space: initial;
+    color: #FFFFFF;
+}
+.App .navbar-style .brand-style:hover {
+  color: #fff;
+}
+.selected-route {
+  border-bottom: 2px solid #FFF;
+}
+#navbarScroll div > img{
+  margin:  auto 10px;
+}
+/******* scrollbar **********/ 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(133, 133, 133); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f7c3b; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(9, 163, 55); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/******* foooter **********/
+footer > .main {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  margin-top: 50px;
+}
+footer > .main > .left{
+  padding:0 20px;
+  width: 200px;
+}
+footer > .main > .left > p{
+  font-size: 12px;
+  margin: 25px 0;
+  color: #5E6282;
+}
+/***** middle *****/
+
+footer > .main > .middle {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  padding: 0 20px;
 }
-
-.App-link {
-  color: #61dafb;
+footer > .main > .middle > p {
+  color: #000;
+  font-size: large;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin: 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer > .main > .middle > span {
+  margin: 10px 0;
+  color: #5E6282;
+}
+/******* right ******/ 
+footer > .main > .right > div{
+  display: flex;
+  margin: 10px 0;
+}
+footer > .main > .right > div > p {
+  font-size: 36px;
+  margin: 13px 10px 0 0;
+  padding-top: 2px;
+  height: 53px;
+  width: 55px;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 6px  #33333374;
+}
+footer > .main > .right > p {
+  color: #5E6282;
+}
+footer > .main > .right > div > img:first-child {
+  margin-right: 10px;
+}
+/******* copyright element *******/
+footer > .copyright {
+  font-size: 12px;
+  margin: 50px auto;
+  width: 90%;
+  color: #666;
 }
